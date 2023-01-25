@@ -52,3 +52,9 @@ background: #DCE1DE;
    cursor:pointer;
    font-size: larger;
 }
+.form{
+    width: 300px
+}
+.input{
+    width: 100%
+}
