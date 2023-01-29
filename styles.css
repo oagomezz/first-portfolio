@@ -1,60 +1,76 @@
-.Box {
-text-align: right;
-word-wrap: normal;
-font-size: 20px;
--webkit-text-fill-color: #8AA79D;
-background-image: url('https://images.pexels.com/photos/2422970/pexels-photo-2422970.jpeg');
-background-size: cover;
-height: 600px;
-background-repeat: no-repeat;
+.body{
+    background-color: rgb(26, 3, 47);
+    color: antiquewhite;
+    font-family: 'Montserrat', sans-serif;
+}
+.project{
+    width: 175px;
+    height: 225px;
+    background-color: antiquewhite;
+    opacity: .7;
+    border: 2px solid rgba(154, 145, 145, 0.595);
+    text-align: center;
+}
+.h1{
+    font-size: 20px;
+    text-align: center;
 }
 
-.Fontcolor{
-
-    -webkit-text-fill-color: #204645;
+.bio{
+    width: 350px;
+    color:antiquewhite;
 }
-.FontAlignLeft{
-    padding-left: 4%;
-text-align: left;
-font-size: 20px;
+.img{
+    background-image: url(./IMG_0072\ \(1\).jpg);
+    width: 100vh;
+    height: 59vh;
+   background-size: contain;
+   background-repeat: no-repeat;
 }
-
-.Aboutme{
-    background: #DCE1DE;
-    mix-blend-mode: normal;
-} 
-.Portfolio{ 
- 
-
-background: #DCE1DE;
-} 
-
-.Techstack{
-
-background: #DCE1DE;
-
-} 
-.Contactme{
-background: #DCE1DE;
+.imgblock{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+}
+.aboutme{
+    margin-left: 40px;
+}
+.table{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
 }
 
-.Sheet{
-    background-color: #DCE1DE;
-}
 
-.btn{
-   text-align: left;
-   padding-left: 5%;
-    cursor: pointer;
-    margin-right: 5px;
-}
-.fa-brands{
-   cursor:pointer;
-   font-size: larger;
-}
-.form{
-    width: 300px
-}
-.input{
-    width: 100%
-}
+
+
+
+
+
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: transparent;
+  }
+  
+  li {
+    float: right;
+  }
+  
+  li a {
+    display: block;
+    color: antiquewhite;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  /* Change the link color to #111 (black) on hover */
+  li a:hover {
+    background-color: rgb(138, 149, 20);
+    opacity: .7;
+  }
